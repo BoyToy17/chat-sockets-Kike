@@ -1,0 +1,73 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #f9b8aa;
+}
+
+.header-container {
+  margin: 40px;
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+  height: 50vh;
+  border-radius: 5px;
+  margin: 0 auto;
+  background-color: aliceblue;
+}
+
+.textoChat {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.notificaciones {
+  font-size: small;
+  width: max-content;
+  width: 20vw;
+  text-align: center;
+  height: 100px;
+  scroll-behavior: auto;
+  overflow: scroll;
+}
+
+input {
+  margin: 10px auto;
+  width: 20vw;
+  height: 5vh;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.usuario{
+    margin: 20px auto;
+}
+
+.mensaje{
+    margin: 20px auto;
+}
+
+.contenedor-Mensajes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.botonEnvio{
+    padding: 10px 20px;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.contenedorChat{
+    text-align: start;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
